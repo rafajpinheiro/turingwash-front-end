@@ -4,79 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="/img/turingwash-icon.svg">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <title>Pedir lavagem</title>
 </head>
 <body>
-    <nav>
-        <a href="#"><img src="#" alt="logo"></a>
-        <div>
-            <a href="#">Meus carros</a>
-            <a href="#">Minhas lavagens</a>
-            <a href="#">Sair</a>
-        </div>
+    <header class="top">
+    <nav class="top__menu">
+        <a href="#" id="logo"><img src="/img/turingwash-logo.svg" alt="logo"></a>
+        <a href="meuscarros.html">Meus carros</a>
+        <a href="minhaslavagens.html">Minhas lavagens</a>
+        <a href="#" id="top__menu__sair">Sair</a>
     </nav>
-    <main>
-        <header>
-            <h1>Lavadores disponíveis próximos de você...</h1>
-            <div>
+    </header>
+    <main class="principal">
+        <header class="principal__cabecalho">
+            <h1 class="principal__titulo">Lavadores disponíveis próximos de você...</h1>
+            <section>
                 <a href="#">Lavar Nissan Kicks</a>
-                <a href="#">Ordenar por proximidade</a>
-            </div>
+                <a href="#" id="principal__titulo__ordem">Ordenar por proximidade</a>
+            </section>
         </header>
-        <ul>
-            <li>
-                <img src="#" alt="foto perfil">
-                <span>João Pereira</span>
-                <section>
-                    <span>Nota 4,5 (998 avaliações)</span>
-                    <span>R$ 80</span>
-                    <a href="#">Ver avaliações</a>
-                    <button type="submit">Lavar meu carro</button>
-                </section>
+        <ul class="lista-motoristas">
+            <li class="lista-motoristas__item">
+                <div class="lista-motoristas__item__perfil">
+                    <img src="/img/profile.png" alt="foto perfil">
+                    <span>João Pereira</span>
+                </div>
+                <div  class="lista-motoristas__item__infos">
+                        <div>Nota 4.5 (998 avaliações)</div>
+                        <div class="lista-motoristas__item__infos__preco">R$ 80</div>
+                        <div><a href="#">Ver avaliações</a></div>
+                        <button type="submit" class="lista-motoristas__item__infos__lavar">Lavar meu carro</button>
+                </div>
             </li>
-            <li>
-                <img src="#" alt="foto perfil">
-                <span>Joana Santos</span>
-                <section>
-                    <span>Nota 4,7 (489 avaliações)</span>
-                    <span>R$ 75</span>
-                    <a href="#">Ver avaliações</a>
-                    <button type="submit">Lavar meu carro</button>
-                </section>
+            <li class="lista-motoristas__item">
+                <div class="lista-motoristas__item__perfil">
+                    <img src="/img/profile.png" alt="foto perfil">
+                    <span>Joana Santos</span>
+                </div>
+                <div  class="lista-motoristas__item__infos">
+                        <div>Nota 4.7 (489 avaliações)</div>
+                        <div class="lista-motoristas__item__infos__preco">R$ 75</div>
+                        <div><a href="#">Ver avaliações</a></div>
+                        <button type="submit" class="lista-motoristas__item__infos__lavar">Lavar meu carro</button>
+                </div>
             </li>
-            <li>
-                <img src="#" alt="foto perfil">
-                <span>Matheus Oliveira</span>
-                <section>
-                    <span>Nota 4,3 (783 avaliações)</span>
-                    <span>R$ 90</span>
-                    <a href="#">Ver avaliações</a>
-                    <button type="submit">Lavar meu carro</button>
-                </section>
+            <li class="lista-motoristas__item">
+                <div class="lista-motoristas__item__perfil">
+                    <img src="/img/profile.png" alt="foto perfil">
+                    <span>Matheus Oliveira</span>
+                </div>
+                <div  class="lista-motoristas__item__infos">
+                        <div>Nota 4.3 (783 avaliações)</div>
+                        <div class="lista-motoristas__item__infos__preco">R$ 90</div>
+                        <div><a href="#">Ver avaliações</a></div>
+                        <button type="submit" class="lista-motoristas__item__infos__lavar">Lavar meu carro</button>
+                </div>
             </li>
-            <li>
-                <img src="#" alt="foto perfil">
-                <span>Pedro Sampaio</span>
-                <section>
-                    <span>Nota 4,1 (801 avaliações)</span>
-                    <span>R$ 60</span>
-                    <a href="#">Ver avaliações</a>
-                    <button type="submit">Lavar meu carro</button>
-                </section>
-            </li>
+            <li class="lista-motoristas__item">
+                <div class="lista-motoristas__item__perfil">
+                    <img src="/img/profile.png" alt="foto perfil">
+                    <span>Pedro Sampaio</span>
+                </div>
+                <div  class="lista-motoristas__item__infos">
+                        <div>Nota 4.1 (801 avaliações)</div>
+                        <div class="lista-motoristas__item__infos__preco">R$ 60</div>
+                        <div><a href="#">Ver avaliações</a></div>
+                        <button type="submit" class="lista-motoristas__item__infos__lavar">Lavar meu carro</button>
+                </div>
+            </li>       
         </ul>
     </main>
-    <footer>
-        <section><a href="#"><img src="#" alt="logo"></a></section>
-        <section>
-            <a href="#">Sobre</a>
-            <a href="#">FAQ</a>
-            <a href="#">Contato</a>
+    <footer class="rodape">
+        <section id="rodape__1">
+            <a href="#" id="rodape__logo"><img src="/img/turingwash-logo.svg" alt="logo"></a>
+        </section>
+        <section id="rodape__2">
+            <a href="#">Sobre</a><br>
+            <a href="#">FAQ</a><br>
+            <a href="#">Contato</a><br>
             <a href="#">Termos de uso</a>
         </section>
-        <section>
-            <a href="#"><img src="#" alt="logo instagram">@turingwash</a>
-            <span>2022.TuringWash. Todos os direitos reservados.</span>
+        <section id="rodape__3">
+            <img src="/img/instagram_icon.svg" alt="logo instagram">
+            <a href="#" id="rodape__insta">@turingwash</a><br><br>
+            <span>2022.TuringWash.<br>Todos os direitos reservados.</span>
         </section>
     </footer>
 </body>

@@ -1,0 +1,202 @@
+html, body{
+    font-size: 10px;
+    font-family: Tahoma;
+}
+
+
+/* TOP */
+.top{
+    position: relative;
+    width: 517px;
+    height: 53px;
+    background-color: #BCF7FF;
+    margin:0;
+}
+
+#logo{
+    position: relative;
+    width: 59px;
+    height: 100%;
+    object-fit: contain;
+    margin:  0 160px 0 0;
+}
+
+.top__menu{
+    width: 517px;
+    height: 53px;
+    margin: 0;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.top__menu a{
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    line-height: 20px;
+    width: auto;
+    height: 20px;
+    margin: 0 25px 0 0;
+}
+
+#top__menu__sair{
+    padding: 5px;
+    background-color: #8FF2FF;
+    border-radius: 5px;
+}
+
+
+/* MAIN */
+.principal{
+    position: relative;
+    width: 517px;
+    height: auto;
+    background-color: #EAF7FF;
+    margin: 0;
+    padding: 0 0 40px 0;
+}
+
+.principal__cabecalho{
+    margin: 0;
+    padding: 15px 0 0 0;
+    margin-left: 35px;
+    width: 446px;
+}
+
+.principal__titulo{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.principal__cabecalho section{
+    margin-top: 25px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.principal__cabecalho section a{
+    font-size: 1.1em;
+    width: 50%;
+}
+
+#principal__titulo__ordem{
+    text-align: right;
+}
+
+.lista-motoristas{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 35px;
+    width: 446px;
+}
+
+.lista-motoristas__item{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 80px;
+    display: flex;
+}
+
+.lista-motoristas__item__perfil{
+    /* border: 1px solid red; */
+    width: 223px;
+    height: 100%;
+    display: flex;
+}
+
+.lista-motoristas__item__perfil span{
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.lista-motoristas__item img{
+    width: 55px;
+    height: 55px;
+    margin: 12px 10px;
+}
+
+.lista-motoristas__item__infos{  
+    /* border: 1px solid green; */
+    width: 223px;
+    height: 100%;
+    text-align: right;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.lista-motoristas__item__infos__preco{
+    padding: 3px 8px;
+    background-color: #DCFCFE;
+    border: 0;
+    border-radius: 8px;
+    margin-left: 25px;
+    font-size: 1.2em;
+    font-weight: 600;    
+}
+
+.lista-motoristas__item__infos div{
+    /* border: 1px solid red; */
+    width: auto;
+}
+
+.lista-motoristas__item__infos__lavar{
+    padding: 3px 8px;
+    background-color: #8FF2FF;
+    border: 0;
+    border-radius: 5px;
+    width: auto;    
+    margin: 0 10px 0 25px;
+}
+
+/* FOOTER */
+.rodape{
+    position: relative;
+    width: 517px;
+    height: 85px;
+    background-color: #BCF7FF;
+    display: flex;
+}
+
+.rodape section{
+    width: 33%;
+}
+
+#rodape__logo img{
+    position: relative;
+    width: 36px;
+    height: 100%;
+    object-fit: contain;
+    margin:  0 0 0 20px;
+}
+
+#rodape__2{
+    padding: 15px 0 0 25px;
+    box-sizing: border-box;
+}
+
+#rodape__2 a{
+    text-decoration: none;
+}
+
+#rodape__3{
+    text-align: right;
+    padding: 15px 20px 0 0;
+}
+
+#rodape__3 img{
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+}
