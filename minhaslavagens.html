@@ -4,83 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="/img/turingwash-icon.svg">
+    <link rel="stylesheet" href="/css/estilo.css">    
+    <title>Minhas lavagens</title>
 </head>
 <body>
-    <nav>
-        <a href="#"><img src="#" alt="logo"></a>
-        <div>
-            <a href="#">Meus carros</a>
-            <a href="#">Minhas lavagens</a>
-            <a href="#">Sair</a>
-        </div>
-    </nav>
-    <main>
-        <header>
-            <h1>Lavadores disponíveis próximos de você...</h1>
-            <div>
-                <a href="#">Lavar Nissan Kicks</a>
-                <a href="#">Ordenar por proximidade</a>
-            </div>
+    <header class="top">
+        <nav class="top__menu">
+            <a href="#" id="logo"><img src="/img/turingwash-logo.svg" alt="logo"></a>
+            <a href="meuscarros.html">Meus carros</a>
+            <a href="minhaslavagens.html">Minhas lavagens</a>
+            <a href="#" id="top__menu__sair">Sair</a>
+        </nav>     
         </header>
-        <ul>
-            <li>
+        <main class="principal">
+            <header class="principal__cabecalho">
+                <h1 class="principal__titulo">Minhas lavagens</h1>
                 <section>
+                    <!-- <a href="#">Lavar Nissan Kicks</a>
+                    <a href="#" id="principal__titulo__ordem">Ordenar por proximidade</a> -->
+                </section>
+            </header>
+        <ul class="lista-lavadores">
+            <li class="lista-lavadores__item">
+                <section class="lista-lavadores__item__nome">
                 <span>Lavador<br><b>Joana Santos</b></span>
                 </section>
-                <section>
+                <section class="lista-lavadores__item__carro">
                 <span>Carro<br><b>Nissan Kicks (2018)</b></span>
                 </section>
-                <section>
-                <span><b>R$ 75</b><br>1 de agosto de 2022</span>
+                <section class="lista-lavadores__item__infos">
+                <div class="lista-lavadores__item__infos__preco">R$ 75</div>
+                <br><br><br>
+                <span>1 de agosto de 2022</span>
                 </section>                
             </li>
-            <li>
-                <section>
+            <li class="lista-lavadores__item">
+                <section class="lista-lavadores__item__nome">
                 <span>Lavador<br><b>Joana Santos</b></span>
                 </section>
-                <section>
+                <section class="lista-lavadores__item__carro">
                 <span>Carro<br><b>Nissan Kicks (2018)</b></span>
                 </section>
-                <section>
-                <span><b>R$ 75</b><br>3 de junho de 2022</span>
+                <section class="lista-lavadores__item__infos">
+                <div class="lista-lavadores__item__infos__preco">R$ 75</div>
+                <br><br><br>
+                <span>3 de junho de 2022</span>
                 </section>                
             </li>
-            <li>
-                <section>
+            <li class="lista-lavadores__item">
+                <section class="lista-lavadores__item__nome">
                 <span>Lavador<br><b>Matheus Oliveira</b></span>
                 </section>
-                <section>
+                <section class="lista-lavadores__item__carro">
                 <span>Carro<br><b>Chevrolet Onix (2015)</b></span>
                 </section>
-                <section>
-                <span><b>R$ 60</b><br>29 de maio de 2022</span>
+                <section class="lista-lavadores__item__infos">
+                <div class="lista-lavadores__item__infos__preco">R$ 60</div>
+                <br><br><br>
+                <span>29 de maio de 2022</span>
                 </section>                
             </li>
-            <li>
-                <section>
+            <li class="lista-lavadores__item">
+                <section class="lista-lavadores__item__nome">
                 <span>Lavador<br><b>Joana Santos</b></span>
                 </section>
-                <section>
+                <section class="lista-lavadores__item__carro">
                 <span>Carro<br><b>Nissan Kicks (2018)</b></span>
                 </section>
-                <section>
-                <span><b>R$ 75</b><br>20 de abril de 2022</span>
+                <section class="lista-lavadores__item__infos">
+                <div class="lista-lavadores__item__infos__preco">R$ 75</div>
+                <br><br><br>
+                <span>20 de abril de 2022</span>
                 </section>                
             </li>             
         </ul>
     </main>
-    <footer>
-        <section><a href="#"><img src="#" alt="logo"></a></section>
-        <section>
-            <a href="#">Sobre</a>
-            <a href="#">FAQ</a>
-            <a href="#">Contato</a>
+    <footer class="rodape">
+        <section id="rodape__1">
+            <a href="#" id="rodape__logo"><img src="/img/turingwash-logo.svg" alt="logo"></a>
+        </section>
+        <section id="rodape__2">
+            <a href="#">Sobre</a><br>
+            <a href="#">FAQ</a><br>
+            <a href="#">Contato</a><br>
             <a href="#">Termos de uso</a>
         </section>
-        <section>
-            <a href="#"><img src="#" alt="logo instagram">@turingwash</a>
-            <span>2022.TuringWash. Todos os direitos reservados.</span>
+        <section id="rodape__3">
+            <img src="/img/instagram_icon.svg" alt="logo instagram">
+            <a href="#" id="rodape__insta">@turingwash</a><br><br>
+            <span>2022.TuringWash.<br>Todos os direitos reservados.</span>
         </section>
     </footer>
 </body>

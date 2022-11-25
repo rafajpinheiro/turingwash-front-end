@@ -4,44 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="/img/turingwash-icon.svg">
+    <link rel="stylesheet" href="/css/estilo.css">    
+    <title>Meus carros</title>
 </head>
 <body>
-    <nav>
-        <a href="#"><img src="#" alt="logo"></a>
-        <div>
-            <a href="#">Meus carros</a>
-            <a href="#">Minhas lavagens</a>
-            <a href="#">Sair</a>
-        </div>
-    </nav>
-    <main>
-        <header>
-            <h1>Meus carros</h1>
-        </header>
-        <ul>
-            <li>
-                <span>Nissan Kicks 2018</span>
+    <header class="top">
+        <nav class="top__menu">
+            <a href="#" id="logo"><img src="/img/turingwash-logo.svg" alt="logo"></a>
+            <a href="meuscarros.html">Meus carros</a>
+            <a href="minhaslavagens.html">Minhas lavagens</a>
+            <a href="#" id="top__menu__sair">Sair</a>
+        </nav>     
+    </header>
+        <main class="principal">
+            <header class="principal__cabecalho">
+                <h1 class="principal__titulo">Meus carros</h1>
+                <section>
+                    <!-- <a href="#">Lavar Nissan Kicks</a>
+                    <a href="#" id="principal__titulo__ordem">Ordenar por proximidade</a> -->
+                </section>
+            </header>
+        <ul class="lista-carros">
+            <li class="lista-carros__item">
+                <div class="lista-carros__item__modelo"><b>Nissan Kicks</b><br>2018</div>
                 <button type="button">Excluir carro</button>
             </li>
-            <li>
-                <span>Chevrolet Onix 2015</span>
+            <li class="lista-carros__item">
+                <div class="lista-carros__item__modelo"><b>Chevrolet Onix</b><br>2015</div>
                 <button type="button">Excluir carro</button>
             </li>
         </ul>
-        <button type="button">Adicionar carro</button>
+        <button type="button" id="adic-carro">Adicionar carro</button>
     </main>
-    <footer>
-        <section><a href="#"><img src="#" alt="logo"></a></section>
-        <section>
-            <a href="#">Sobre</a>
-            <a href="#">FAQ</a>
-            <a href="#">Contato</a>
+    <footer class="rodape">
+        <section id="rodape__1">
+            <a href="#" id="rodape__logo"><img src="/img/turingwash-logo.svg" alt="logo"></a>
+        </section>
+        <section id="rodape__2">
+            <a href="#">Sobre</a><br>
+            <a href="#">FAQ</a><br>
+            <a href="#">Contato</a><br>
             <a href="#">Termos de uso</a>
         </section>
-        <section>
-            <a href="#"><img src="#" alt="logo instagram">@turingwash</a>
-            <span>2022.TuringWash. Todos os direitos reservados.</span>
+        <section id="rodape__3">
+            <img src="/img/instagram_icon.svg" alt="logo instagram">
+            <a href="#" id="rodape__insta">@turingwash</a><br><br>
+            <span>2022.TuringWash.<br>Todos os direitos reservados.</span>
         </section>
     </footer>
 </body>
