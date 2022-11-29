@@ -1,0 +1,37 @@
+/* MOBILE */
+@media screen and (max-width: 768px){
+    .conteiner{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        border: 10px solid red;    
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .rodape section{
+        border: 1px solid red;
+        width: 100%;
+    }
+
+    #rodape__1{
+        text-align: center;
+    }
+
+    #rodape__logo img{
+        width: 60px;
+        height: 100%;
+        object-fit: contain;
+        margin: 0 auto;
+    }    
+
+    #rodape__2 a{
+        font-size: 1.2em;
+    }
+}

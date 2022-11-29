@@ -1,14 +1,27 @@
 /* @import url(/css/reset.css); */
+@import url(/css/normalize.css);
 @import url(/css/top.css);
 @import url(/css/footer.css);
+@import url(/css/responsivo.css);
 
 html, body{
     font-size: 10px;
     font-family: Tahoma;
+    height: 100%;
+    width: 100%;
+
 }
 
 
 /* MAIN */
+.conteiner{
+    position: relative;
+    margin: 0 auto;
+    border: 3px solid rgb(52, 14, 224);
+    width: 41%;
+    height: auto;
+}
+
 .principal{
     position: relative;
     width: 517px;
